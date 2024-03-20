@@ -19,7 +19,7 @@ def getweather(city):
     weather = data["weather"][0]["main"]
     final = (city, country, temp, icon, weather)
     return final
-
+#Hello Git
 window = tk.Tk()
 window.title("weather")
 window.geometry("300x300")
